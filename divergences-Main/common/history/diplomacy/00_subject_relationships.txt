@@ -1,0 +1,145 @@
+﻿DIPLOMACY = {
+	c:VEN = {
+		create_diplomatic_pact = {
+			country = c:ATH
+			type = puppet
+		}
+	}
+	c:MOR = {
+		
+		create_diplomatic_pact = {
+			country = c:ANL
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:POR
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:IRE
+			type = tributary
+		}
+		
+	}
+	
+	c:PAP = {
+	create_diplomatic_pact = {
+			country = c:S1C
+			type = vassal
+		}
+	}
+	c:BGL = {
+	create_diplomatic_pact = {
+			country = c:HTH
+			type = vassal
+		}
+	}
+	c:ARN = {
+		create_diplomatic_pact = {
+			country = c:NAV
+			type = personal_union
+		}
+	}
+	c:TUR = {
+		create_diplomatic_pact = {
+			country = c:HDJ
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:TUN
+			type = protectorate
+		}
+	}
+	# c:OYO = { #Breaks because Oyo isn't a high enough rank
+		# create_diplomatic_pact = {
+			# country = c:DAH
+			# type = tributary
+		# }
+	# }
+	
+	
+	c:CHR = {
+		create_diplomatic_pact = {
+			country = c:SUL
+			type = puppet
+		}
+	}
+	c:BOS = {
+		create_diplomatic_pact = {
+			country = c:CRO
+			type = vassal
+		}
+		
+	}
+	c:BAV = {
+		create_diplomatic_pact = {
+			country = c:AGR
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:SLZ
+			type = vassal
+		}
+	}
+	c:BOH = {
+		create_diplomatic_pact = {
+			country = c:MSZ
+			type = vassal
+		}
+	}
+	c:THU = {
+		create_diplomatic_pact = {
+			country = c:SME
+			type = vassal
+		}
+	}
+	c:SPA = {
+		create_diplomatic_pact = {
+			country = c:GRA
+			type = vassal
+		}
+	}
+	c:NOV = {
+		create_diplomatic_pact = {
+			country = c:BLO
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:UGG
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:VYA
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:PRM
+			type = vassal
+		}
+	}
+	c:TIB = {
+		create_diplomatic_pact = {
+			country = c:BHU
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:SIK
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:NEP
+			type = puppet
+		}
+	}
+	c:PAN = {
+		create_diplomatic_pact = {
+			country = c:AFG
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:KAS
+			type = vassal
+		}
+	}
+	
+}

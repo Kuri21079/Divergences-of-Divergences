@@ -1,0 +1,39 @@
+DIPLOMATIC_PLAYS = {
+	c:KOR = {
+		create_diplomatic_play = {
+			name = yamato_revolt
+		
+			target_country = c:JAP
+			
+			war = yes
+			
+			type = dp_rebellion_annex
+			
+			add_war_goal = {
+				holder = c:JAP
+				type = return_state
+				target_state = s:STATE_SHIKOKU.region_state:KOR
+			}
+			add_war_goal = {
+				holder = c:JAP
+				type = force_recognition
+				target_country = c:KOR
+			}
+			add_war_goal = {
+				holder = c:JAP
+				type = return_state
+				target_state = s:STATE_KANSAI.region_state:KOR
+			}
+			add_war_goal = {
+				holder = c:JAP
+				type = return_state
+				target_state = s:STATE_CHUGOKU.region_state:KOR
+			}
+			add_war_goal = {
+				holder = c:JAP
+				type = return_state
+				target_state = s:STATE_KYUSHU.region_state:KOR
+			}
+		}			
+	}
+}

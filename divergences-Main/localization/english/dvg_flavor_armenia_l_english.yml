@@ -1,0 +1,26 @@
+﻿l_english:
+
+ #Journals
+ 
+ 
+je_sea_to_sea_armenia: "Sea to Sea Armenia"
+je_sea_to_sea_armenia_reason: "If we hope to restore Armenia to its greatest glory, we must establish an empire that rules from the Caspian to Mediterranean Sea."
+
+
+ #Events
+ 
+ dvg_armenia.1.t: "The Resurgent Empire of [ROOT.GetCountry.GetName]"
+ dvg_armenia.1.d: "In a surprising turn of recent events, the Armenians have managed to usurp the ruling Azeris and seized most of their former territory."
+ dvg_armenia.1.f: "Now that [ROOT.GetCountry.GetName] has risen from the dead, what does the future hold for it?"
+ dvg_armenia.1.a: "We shall rule as king of kings!"
+ 
+ 
+  #Decisions
+ 
+dvg_gouas: "Work Towards a New Union"
+dvg_gouas_desc: "As we have declared independence from our former overlord, let's establish a new, different power in Ameriga"
+
+
+dvg_atlantia_referendum: "Decide Atlantia's Fate"
+dvg_atlantia_referendum_desc: "Now that the European powers are losing interest as gold mines deplete in our region and our neighbors are eyeing us, we have to decide our future."
+

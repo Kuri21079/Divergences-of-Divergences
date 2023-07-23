@@ -1,0 +1,47 @@
+﻿namespace = dvg_armenia
+
+
+dvg_armenia.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = dvg_armenia.1.t
+	desc = dvg_armenia.1.d
+	flavor = dvg_armenia.1.f
+	
+	event_image = {
+		video = "middleeast_courtroom_upheaval"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval"
+
+	icon = "gfx/interface/icons/event_icons/event_fire.dds"
+
+	duration = 1
+
+	trigger = {
+	    year = 1836
+	}
+	
+	
+	# Vive!
+	option = {
+		name = dvg_armenia.1.a
+		default_option = yes
+		add_journal_entry = {
+			type = je_sea_to_sea_armenia
+		}
+		
+		add_radicals = {
+			value = 0.4
+			culture = cu:azerbaijani
+		}
+		add_loyalists = {
+			value = 0.15
+			culture = cu:armenian
+		}
+		ai_chance = {
+			base = 100
+		}
+	}

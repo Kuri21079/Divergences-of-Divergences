@@ -1,0 +1,31 @@
+﻿je_sea_to_sea_armenia = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	immediate = {
+		
+	}
+
+	possible = {
+	   
+	}
+
+	complete = {
+		AND = {
+			owns_entire_state_region = STATE_ADANA
+			owns_entire_state_region = STATE_DIYARBAKIR
+			owns_entire_state_region = STATE_TRABZON
+			owns_entire_state_region = STATE_ARMENIA
+			owns_entire_state_region = STATE_AZERBAIJAN
+			owns_entire_state_region = STATE_KARS
+		}
+	}
+
+	on_complete = {
+		change_variable = {
+			name = aigle_var
+			add = 10
+		}
+		trigger_event = { id = dvg_armenia.2 }
+	}
+	should_be_pinned_by_default = yes
+}
