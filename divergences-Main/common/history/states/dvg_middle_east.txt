@@ -78,7 +78,7 @@
 			owned_provinces = { "xCF6C49" "x075453" "x0C7E0C" "x0B9A27" "x02F9FF" "xFE5027" "xEF2E43" "xBB387A" "x84FA60" "x299C0F" "xAD1CE2" "x02B35C" "xDFA579" "x2A9E89" "x8BF4B8"  "x3D86FC" "x346541" "x5DF9FC" "xCF61E1" "x895FE6" "x75D341" "x5F3582" "xC09525" "x567A83" "x625380" "xA2FDFA" "xBDEA27" "x68B524" "x90602A" "x843C65" "x8E96A7" "x7C3EA9" "xC790E8" "x8D121D" "x95D64E" "xF385EB" "xA1AAB0"}
 		}
 		create_state = {
-			country = c:SPA
+			country = c:BGL
 			owned_provinces = { "x37058F" }
 			state_type = unincorporated
 		}
