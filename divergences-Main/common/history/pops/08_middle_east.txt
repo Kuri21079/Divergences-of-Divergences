@@ -1366,14 +1366,13 @@
 				size = 18239
 			}
 		}
-		region_state:SPA = {
+		region_state:BGL = {
 			create_pop = {
 				culture = bedouin
 				size = 22098
 			}
 			create_pop = {
-				pop_type = slaves
-				culture = swahili
+				culture = bengali
 				size = 7987
 			}
 			create_pop = {
